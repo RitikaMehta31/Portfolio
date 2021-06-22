@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- Masthead-->
+{% include 'header.html' %}
+
+
+<!-- Project Section -->
+<section class="page-section portfolio" id="portfolio">
+	{% include 'project.html' %}    
+</section>
+
+<!-- About Section -->
+<section class="page-section bg-primary text-white mb-0" id="about">
+	{% include 'about.html' %}    
+</section>
+
+<!-- Contact Section -->
+<section class="page-section" id="contact">
+	{% include 'contact.html' %}    
+</section>
+
+{% endblock %}
